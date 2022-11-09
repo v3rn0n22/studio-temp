@@ -1,0 +1,213 @@
+@media only screen and (min-width: 768px){
+}
+
+body  {
+    padding: 0;
+    margin: 0;
+}
+
+.shopTxt {
+    margin: 0;
+    padding: 6px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.inStore  {
+    background-color: #2A2A2A;
+    color: #f6f5f3;
+}
+
+header {
+    background-color: #f6f5f3;
+    display: flex;
+    /*justify-content: space-between;  */
+    justify-content: center;
+    color: #2A2A2A;
+    flex-wrap: wrap;
+    
+}
+
+nav {
+    display: flex;
+    padding: 14px 3px;
+    flex-wrap: wrap;
+
+}
+
+
+span {
+    font-size: 22px;   
+}
+
+img {
+    max-width: 100%;
+}
+
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(39, 23, 2);
+    position: relative;
+    width: 100%;
+    
+    
+
+    /*display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;*/
+    
+    
+}
+
+
+
+.photo1 {
+    width: 900px;
+    height: 600px;
+    object-fit: cover;
+
+/*width:1010px;
+height: 600px;
+object-fit: cover;
+margin: 0;
+padding: 0;*/
+ 
+} 
+
+.p2 {
+    display: block;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.photo2 {
+    width: 100%;
+    height: 600px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .4;
+    
+
+
+ /*width: 1530px;
+ height: 600px;
+ object-fit: cover;
+ margin: 0; 
+ padding: 0; */
+}
+
+.picTxt {
+    position: absolute;
+    color: #f6f5f3;
+    left: 62%;
+    top: 59%;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+.picTxt2 {
+    position: absolute;
+    color: white;
+    left: 64%;
+    top: 75%;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.headerTxt {
+    font-size: 18px;
+    padding: 20px;
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+    padding: 15px;
+
+}
+
+
+a:hover {
+    opacity: 0.7;
+    margin: 0;
+    transition: .3s;
+    /*color: #BDA072;*/
+    
+}
+
+.memberContainer {
+    background-color: #BDA072;
+    text-align: center;
+
+    
+}
+
+.membership {
+    padding: 100px;
+}
+
+.clkLearn{
+    
+    color: #ffffff
+}
+
+.newsContainer {
+    background-color: #2A2A2A;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.emailContainer {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.bottomBanner {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.fbig {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+li {
+    list-style: none;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%; 
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
