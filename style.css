@@ -1,8 +1,6 @@
 @media only screen and (min-width: 768px){
 }
 
-
-
 body  {
     padding: 0;
     margin: 0;
@@ -21,21 +19,15 @@ body  {
     color: #f6f5f3;
 }
 
-header {
+nav {
     background-color: #f6f5f3;
     display: flex;
-    /*justify-content: space-between;  */
     justify-content: center;
     color: #2A2A2A;
+    flex-wrap: wrap;
 }
 
-@media only screen and (min-width: 768px){
-.navigation{
-    display: flex;
-    padding: 14px 3px;
-    flex-wrap: wrap
-}
-}
+
 span {
     font-size: 22px;   
 }
@@ -53,7 +45,7 @@ img {
 }
 
 .photo >* {
-    flex: 1 1 ;
+    flex: 1 1;
 }
 
 .photo1 {
@@ -83,7 +75,7 @@ img {
     top: 59%;
     font-weight: bold;
     font-size: 24px;
-    
+    margin: 0;
 }
 
 
@@ -96,7 +88,19 @@ img {
     font-size: 18px;
     line-height: 1.5;
     text-align: center;
-    
+    margin: 0;
+}
+
+
+.saleImgContainer {
+    position: relative;
+}
+
+.storeTxt {
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    text-align: center;
 }
 
 .headerTxt {
@@ -116,25 +120,11 @@ a:hover {
     opacity: 0.7;
     margin: 0;
     transition: .3s;
-    /*color: #BDA072;*/
-}
-
-
-.saleImgContainer {
-    background-image: url(img/potsale.jpg);
-    background-color: #777067;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    
-    
-    
 }
 
 .imgBody {
     display: flex;
     flex: 1;
-    
 }
 
 .saleImg {
@@ -143,11 +133,7 @@ a:hover {
     flex-grow: 1;
     object-fit: cover;
     opacity: .8;
-    
 }
-
-
-
 
 .scheduleContainer {
     text-align: center;
@@ -156,13 +142,12 @@ a:hover {
 .classContainer  {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
 }
 
 .scheduleTxt {
     margin-bottom: 60px ;
 }
-
 
 .checkSch1, .checkSch2 {
     display: flex;
@@ -172,22 +157,18 @@ a:hover {
     flex-wrap: wrap;
 }
 
-
 .scheduleContainer {
     padding-top: 100px;
     padding-bottom: 120px;
 }
-
-
 
 .memberContainer {
     background-color: #BDA072;
     text-align: center;
 }
 
-
 .membership {
-    padding: 100px;
+    padding: 80px 20px;
 }
 
 .learnMore {
@@ -202,8 +183,7 @@ a:hover {
 .newsContainer {
     background-color: #2A2A2A;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 150px;
+    padding: 100px 20px;
 }
 
 .emailContainer {
@@ -234,10 +214,6 @@ button {
     display: flex;
     justify-content: center;
 }
-
-
-
-
 
 li {
     list-style: none;
